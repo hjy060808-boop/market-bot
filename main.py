@@ -57,7 +57,7 @@ def generate_market_news():
 
     return response.choices[0].message.content
 
-def
+def send_message() :
 
     news = generate_market_news()
 
