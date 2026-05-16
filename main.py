@@ -6,14 +6,15 @@ from datetime import datetime
 import os
 
 client = OpenAI(
-    api_key=os.environ["OPENAI_API_KEY"]
+    api_key=os.environ["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"]
 )
 
 bot = Bot(
-    token=os.environ["TELEGRAM_BOT_TOKEN"]
+    token=os.environ["send_message():
+"]
 )
 
-CHAT_ID = os.environ["CHAT_ID"]
+CHAT_ID = os.environ["7730167846"]
 
 def generate_market_news():
 
